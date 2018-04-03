@@ -15,7 +15,8 @@
     "require": {},
 	"autoload": {
         "psr-4": {
-            "GCU\\Cloud\\App\\": "src/GCU/Cloud/App"
+            "GCU\\Cloud\\App\\": "src/GCU/Cloud/App",
+            "GCU\\Cloud\\Utils\\": "src/GCU/Cloud/Utils"
         }
     }
 }
