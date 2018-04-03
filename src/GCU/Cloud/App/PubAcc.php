@@ -25,11 +25,11 @@ class PubAcc
      * 初始化输入appid和secret
      * @param $pub
      * @param $pubSecret
-     * @return MCloud
+     * @return PubAcc
      */
     public static function init($no,$pub,$pubSecret){
         if(self::$app==null){
-            self::$app=new MCloud();
+            self::$app=new PubAcc();
         }
         self::$app->no=$no;
         self::$app->pub=$pub;
