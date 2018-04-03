@@ -15,7 +15,8 @@ class Encrypt
      * @return array
      */
     public static function sortArray(array $data){
-        return sort($data,SORT_STRING);
+        sort($data,SORT_STRING);
+        return $data;
     }
     /**
      * 字符串连接
