@@ -1,0 +1,20 @@
+{
+    "name": "lijialong1313/gcu-cloud-app",
+	"description": "This is a gcu cloud app tools",
+	"keywords": [],
+	"type": "library",
+	"license": "MIT",
+    "authors": [
+        {
+            "name": "李家隆",
+            "email": "834337589@qq.com"
+        }
+    ],
+	"minimum-stability": "dev",
+    "require": {},
+	"autoload": {
+        "psr-4": {
+            "GCU\\Cloud\\App\\": "src/GCU/Cloud/App"
+        }
+    }
+}
