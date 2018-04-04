@@ -48,15 +48,15 @@ class PubAcc
     }
     /**
      * 建立消息
-     * @param $form
+     * @param $from
      * @param $to
      * @param $type
      * @param $msg
      * @return string
      */
-    public function generateMessage($form,$to,$type,$msg){
+    public function generateMessage($from,$to,$type,$msg){
         $result=array();
-        $result['form']=$form;
+        $result['from']=$from;
         $result['to']=$to;
         $result['type']=$type;
         $result['msg']=$msg;
@@ -82,10 +82,10 @@ class PubAcc
         return $result;
     }
     /**
-     * 建立form
+     * 建立from
      * @return array
      */
-    public function generateForm(){
+    public function generateFrom(){
         $result=array();
         $result['no']=$this->no;
         $result['pub']=$this->pub;
